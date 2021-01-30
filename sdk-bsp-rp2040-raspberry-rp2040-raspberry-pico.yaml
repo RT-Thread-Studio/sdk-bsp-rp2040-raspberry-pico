@@ -13,7 +13,7 @@ board:
   sale_contact_cn: https://www.raspberrypi.org/products/raspberry-pi-pico/
   sale_contact_global: https://www.raspberrypi.org/products/raspberry-pi-pico/
   small_image: documents/images/pico_small.png
-  vendor: RASPBERRY
+  vendor: RASPBERRYPI
   version: 1.0.0
 chip:
   chip_name: RP2040
