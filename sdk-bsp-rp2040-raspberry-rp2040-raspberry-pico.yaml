@@ -7,7 +7,7 @@ board:
   description_zh: Raspberry Pi Pico 是使用 RP2040 构建的微型，快速，通用板，RP2040 是英国 Raspberry Pi 设计的全新微控制器芯片。
   emulator_machine: ''
   large_image: documents/images/pico_large.png
-  name: RP2040-RASPBERRY-PICO
+  name: RP2040-RASPBERRYPI-PICO
   price_cn: 30 CNY
   price_global: 4 USD
   sale_contact_cn: https://www.raspberrypi.org/products/raspberry-pi-pico/
@@ -18,7 +18,7 @@ board:
 chip:
   chip_name: RP2040
   clock_source: HSE
-  device_vendor: RASPBERRY
+  device_vendor: RASPBERRYPI
   family_name: RP
   rx_name: PA10
   series_name: RP2040
