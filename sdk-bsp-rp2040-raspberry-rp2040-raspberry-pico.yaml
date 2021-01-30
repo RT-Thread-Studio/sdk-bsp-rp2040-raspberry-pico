@@ -18,7 +18,7 @@ board:
 chip:
   chip_name: RP2040
   clock_source: HSE
-  device_vendor: RASPBERRY
+  device_vendor: RASPBERRYPI
   family_name: RP
   rx_name: PA10
   series_name: RP2040
