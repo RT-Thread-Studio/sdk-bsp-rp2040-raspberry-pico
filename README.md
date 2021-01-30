@@ -1,1 +1,0 @@
-# sdk-bsp-rp2040-raspberry-pico

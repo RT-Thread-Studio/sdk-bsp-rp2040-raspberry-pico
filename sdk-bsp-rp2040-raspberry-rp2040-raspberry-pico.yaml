@@ -1,0 +1,104 @@
+board:
+  buy_url_cn: https://www.seeedstudio.com/Raspberry-Pi-Pico-p-4832.html?src=raspberrypi
+  buy_url_global: https://www.sparkfun.com/products/17829?src=raspberrypi
+  debug_interface: SWD
+  debugger: J-Link
+  description_en: Raspberry Pi Pico is a tiny, fast, and versatile board built using RP2040, a brand new microcontroller chip designed by Raspberry Pi in the UK.
+  description_zh: Raspberry Pi Pico 是使用 RP2040 构建的微型，快速，通用板，RP2040 是英国 Raspberry Pi 设计的全新微控制器芯片。
+  emulator_machine: ''
+  large_image: documents/images/pico_large.png
+  name: RP2040-RASPBERRY-PICO
+  price_cn: 30 CNY
+  price_global: 4 USD
+  sale_contact_cn: https://www.raspberrypi.org/products/raspberry-pi-pico/
+  sale_contact_global: https://www.raspberrypi.org/products/raspberry-pi-pico/
+  small_image: documents/images/pico_small.png
+  vendor: RASPBERRY
+  version: 1.0.0
+chip:
+  chip_name: RP2040
+  clock_source: HSE
+  device_vendor: RASPBERRY
+  family_name: RP
+  rx_name: PA10
+  series_name: RP2040
+  source_freq: '8000000'
+  sub_series_name: RP2040
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs:
+- category: manual
+  file: documents/getting-started-with-pico.pdf
+  title: getting-started-with-pico
+- category: sheet
+  file: documents/pico-datasheet.pdf
+  title: pico-datasheet
+example_projects: []
+features:
+- 21 mm × 51 mm form factor
+- Dual-core Arm Cortex-M0+ processor, flexible clock running up to 133 MHz
+- 264KB on-chip SRAM
+- 2MB on-board QSPI Flash
+- 26 multifunction GPIO pins, including 3 analogue inputs
+- 2 × UART, 2 × SPI controllers, 2 × I2C controllers, 16 × PWM channels
+- 1 × USB 1.1 controller and PHY, with host and device support
+- 8 × Programmable I/O (PIO) state machines for custom peripheral support
+- Accelerated integer and floating-point libraries on-chip
+features_zh:
+- 21 mm × 51 mm form factor
+- Dual-core Arm Cortex-M0+ processor, flexible clock running up to 133 MHz
+- 264KB on-chip SRAM
+- 2MB on-board QSPI Flash
+- 26 multifunction GPIO pins, including 3 analogue inputs
+- 2 × UART, 2 × SPI controllers, 2 × I2C controllers, 16 × PWM channels
+- 1 × USB 1.1 controller and PHY, with host and device support
+- 8 × Programmable I/O (PIO) state machines for custom peripheral support
+- Accelerated integer and floating-point libraries on-chip
+pkg_type: Board_Support_Packages
+pkg_vendor: RealThread
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .project
+    - .settings
+    - applications
+    - drivers
+    - figures
+    - Kconfig
+    - libraries
+    - link.ld
+    - makefile.targets
+    - README.md
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - toolchain
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/SConscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: latest
+    source_path_offset: rt-thread
+    target_path_offset: rt-thread
+  project_description: raspberry pico project with rt-thread latest
+  project_name: pico
+  project_type: rt-thread|@full|@latest
+yaml_version: 3
