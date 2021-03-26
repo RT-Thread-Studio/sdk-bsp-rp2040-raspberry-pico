@@ -57,7 +57,7 @@ features_zh:
 - Accelerated integer and floating-point libraries on-chip
 pkg_type: Board_Support_Packages
 pkg_vendor: RealThread
-pkg_version: 1.0.4
+pkg_version: 1.0.5
 template_projects:
 - builtin_files:
   - files_and_folders:
