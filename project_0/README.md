@@ -62,6 +62,15 @@ Hello, RT-Thread!
 msh >
 ```
 
+## Debug
+
+Debugging configuration parameters：
+
+![debug](figures/debug.png)
+
+note：
+Uncheck the run/restart option in the startup configuration.
+
 ## Peripheral Condition
 
 | Drive | Support | Remark  |
